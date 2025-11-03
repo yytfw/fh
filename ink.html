@@ -345,7 +345,7 @@
       screen.orientation.addEventListener('change', function() {
         if (screen.orientation.type.includes('landscape')) {
           document.body.classList.add('landscape-mode');
-          fullscreenBtn.textContent = '退出全屏';
+          fullscreenBtn.textContent = '退出';
         } else {
           document.body.classList.remove('landscape-mode');
           fullscreenBtn.textContent = '全屏播放';
@@ -447,3 +447,4 @@
   </script>
 </body>
 </html>
+
